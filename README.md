@@ -1,12 +1,13 @@
-# Vanilla JS and Bootstrap Boilerplate
+# Vanilla JS and Bootstrap Boilerplate with Vite
 
 This is a simple boilerplate project for starting a web development project using Vanilla JavaScript and Bootstrap, powered by Vite.
 
 ## Features
 
 - Vanilla JavaScript: Write modern JavaScript code without any frameworks or libraries.
-- Bootstrap: Utilize the power of Bootstrap to create responsive and stylish UI components.
-- Vite: Enjoy a fast development experience with Vite's blazing-fast build tooling.
+- Sass: Use Sass for writing styles with variables, nesting, and more. (v. 1.87)
+- Bootstrap: Utilize the power of Bootstrap to create responsive and stylish UI components. (v. 5.3)
+- Vite: Enjoy a fast development experience with Vite's blazing-fast build tooling. (v. 6.3)
 
 ## Getting Started
 
@@ -48,9 +49,12 @@ npm run dev
 vanilla-bootstrap-boilerplate/
 ├── .gitignore
 ├── index.html Entry point HTML file.
-├── main.js Main JavaScript file.
 ├── package.json Project configuration and dependencies.
-├── style.scss Main Sass file. Write your styles here.
+├── src/
+│   ├── js/
+│   │   └── main.js Main JavaScript file.
+│   ├── scss/
+│   │   ├── styles.scss Main Sass file. Write your styles here.
 ```
 
 ## Commands
