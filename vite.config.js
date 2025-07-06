@@ -1,4 +1,6 @@
-export default {
+import { defineConfig } from 'vite'
+
+export default defineConfig({
   // https://getbootstrap.com/docs/5.3/getting-started/vite/#configure-vite
   css: {
     preprocessorOptions: {
@@ -12,4 +14,4 @@ export default {
       },
     },
   },
-};
+});
