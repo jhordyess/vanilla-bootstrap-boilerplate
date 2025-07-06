@@ -4,10 +4,10 @@ This is a simple boilerplate project for starting a web development project usin
 
 ## Features
 
-- Vanilla JavaScript: Write modern JavaScript code without any frameworks or libraries.
-- Sass: Use Sass for writing styles with variables, nesting, and more. (v. 1.87)
-- Bootstrap: Utilize the power of Bootstrap to create responsive and stylish UI components. (v. 5.3)
-- Vite: Enjoy a fast development experience with Vite's blazing-fast build tooling. (v. 6.3)
+- **Vanilla JavaScript**: Write modern JavaScript code without any frameworks or libraries.
+- **Sass**: Use Sass for writing styles with variables, nesting, and more. (v. 1)
+- **Bootstrap**: Utilize the power of Bootstrap to create responsive and stylish UI components. (v. 5)
+- **Vite**: Enjoy a fast development experience with Vite's blazing-fast build tooling. (v. 7)
 
 ## Getting Started
 
@@ -26,18 +26,12 @@ cd vanilla-bootstrap-boilerplate
 3. Install dependencies:
 
 ```sh
-yarn
-
-# With npm
 npm install
 ```
 
 4. Start the development server:
 
 ```sh
-yarn dev
-
-# With npm
 npm run dev
 ```
 
@@ -47,14 +41,16 @@ npm run dev
 
 ```md
 vanilla-bootstrap-boilerplate/
-├── .gitignore
-├── index.html Entry point HTML file.
-├── package.json Project configuration and dependencies.
+├── .gitignore              # Git ignore file.
+├── index.html              # Entry point HTML file.
+├── package.json            # Project configuration and dependencies.
+├── README.md               # Project documentation.
+├── vite.config.js          # Vite configuration file.
 ├── src/
 │   ├── js/
-│   │   └── main.js Main JavaScript file.
+│   │   └── main.js         # Main JavaScript file.
 │   ├── scss/
-│   │   ├── styles.scss Main Sass file. Write your styles here.
+│   │   ├── styles.scss     # Main Sass file. Write your styles here.
 ```
 
 ## Commands
@@ -62,27 +58,18 @@ vanilla-bootstrap-boilerplate/
 ### Start the development server
 
 ```sh
-yarn dev
-
-# With npm
 npm run dev
 ```
 
 ### Build the project for production
 
 ```sh
-yarn build
-
-# With npm
 npm run build
 ```
 
 ### Preview the project before production
 
 ```sh
-yarn preview
-
-# With npm
 npm run preview
 ```
 
