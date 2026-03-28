@@ -7,7 +7,7 @@ This is a simple boilerplate project for starting a web development project usin
 - **Vanilla JavaScript**: Write modern JavaScript code without any frameworks or libraries.
 - **Sass**: Use Sass for writing styles with variables, nesting, and more. (v. 1)
 - **Bootstrap**: Utilize the power of Bootstrap to create responsive and stylish UI components. (v. 5)
-- **Vite**: Enjoy a fast development experience with Vite's blazing-fast build tooling. (v. 8git@github.com:jhordyess/vanilla-tailwindcss-boilerplate.git)
+- **Vite**: Enjoy a fast development experience with Vite's blazing-fast build tooling. (v. 8)
 
 ## Getting Started
 
